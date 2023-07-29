@@ -1,0 +1,271 @@
+<!-- Go to this github repo  https://github.com/ashiksanyo10/Port_Temp.git and clone it to your local machine -->
+<!-- Open the local copy of code and edit the templete -->
+
+
+<!-- Dont alter any tags, fill in you information on required field only and dont alter style.css and javascript file-->
+<!-- once editing the templete, Create a github repo and push the code-->
+<!-- you can host the website on gitpages or netlify  -->
+<!---->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ashik Sanyo</title>    <!-- Change it your name  --> .
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="" class="link"  
+          >{AS}. <!--insert your initials here --></a
+        >
+      </h3> <!--use the linkedIn or any link in above href-->
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#Internship">Internship</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Ashik Sanyo.</span></h1>
+        <h2 class="about__role">Aspiring DataScientist</h2>
+        <p class="about__desc">
+          I'm a Tech geek living in Bangalore, India. I love to solve problems and build things. Also an Ex-TCSer and presently a Post grad Data Science student at Christ University!
+        </p> <!-- about you -->
+        <br>
+        <a href="mailto:ashiksanyo01@gmail.com">Mail: ashisanyo01@gmail.com | Contact: +91 63624 86106</a> <p></p>  
+      </br>
+      
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/1fiYlv7Ou0tKWSdUlQwpc5Ye3hDEya3kK/view" target="_blank"  > <!-- drive link for resume-->
+            <span class="btn btn--outline">Resume</span> 
+          </a>
+
+          <a
+            href="https://github.com/ashiksanyo10" target="_blank"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/ashiksanyo" target="_blank"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Ukraine Russia War Data Analysis</h3>
+            <p class="project__description">
+              2022 Ukraine Russia War Exploratory Data Analysis, Analysis was done on the day 167 of the war
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Excel</li>
+              <li class="project__stack-item">Plotly</li>
+            </ul>
+
+            <a
+              href="https://github.com/ashiksanyo10/Russia-Ukraine_War_EDA" target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            > 
+
+            <!-- PROJECT LINKS AND SORUCE CODE -->
+
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Drone Detection - YOLO v8</h3>
+            <p class="project__description">
+              An image Classification model using YOLO, which is trained on custom dataset
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">YOLO v8</li>
+            </ul>
+
+            <a
+              href="https://github.com/ashiksanyo10/DroneXYOLOv8" target="_blank"
+              aria-label="https://github.com/ashiksanyo10/DroneXYOLOv8" target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>PowerBI Dashboards</h3>
+            <p class="project__description">
+              Developed a Business Intelligence portfolio with real-case reports showcasing data analysis expertise.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">PowerBI</li>
+              <li class="project__stack-item">SQL</li>
+              <li class="project__stack-item">Excel</li>
+            </ul>
+
+            <a
+              href="https://www.novypro.com/profile_projects/ashiksanyo" target="_blank"
+              aria-label="https://www.novypro.com/project/us-sales-dash" target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="Internship" class="section Internship" id="Internship">
+        <h2 class="section__title">Internships & Certifications</h2>
+
+      <div class="project">
+        <h3>Open Weaver</h3>
+        <p class="project__description">
+          Developed several model using the prototype kit called KANDI.
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">Python</li>
+          <li class="project__stack-item">Gen -Ai</li>
+          <li class="project__stack-item">Machine Learning</li>
+        </ul>
+
+        <a
+          href=""  
+          aria-label="https://www.novypro.com/project/us-sales-dash" target="_blank"
+          class="link link--icon"
+        > <!-- Include the certification links and  -->
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://example.com"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>                        <!--You can fill in the elective course and you can remove extras-->
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Machine Learning</li>
+          <li class="skills__list-item btn btn--plain">Computer Vision</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">A/B Testing</li>
+          <li class="skills__list-item btn btn--plain">Adobe Creative Suit</li>
+        </ul>
+      </section>
+
+  
+      <!-- Contact 
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:ashiksanyo01@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+    -->
+
+    <footer class="footer">
+      <a
+        href="" 
+        class="link footer__link"
+      >  <!-- Host it on git and use the git repo link in above href-->
+        Created By Ashik Sanyo!
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
